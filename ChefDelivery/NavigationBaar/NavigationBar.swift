@@ -13,7 +13,6 @@ struct NavigationBar: View {
             Spacer()
             
             Button("R. Vergueiro, 3185") {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
             }
             .font(.subheadline)
             .fontWeight(.semibold)
