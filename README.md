@@ -1,4 +1,4 @@
-<img src="docs/assets/logo.jpg" alt="app logo" width="250" align="right" />
+<img src="docs/assets/logo.jpg" alt="app logo" width="100" align="right" />
 
 # ChefDelivery
 
