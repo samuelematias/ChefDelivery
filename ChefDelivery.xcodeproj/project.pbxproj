@@ -10,6 +10,7 @@
 		BA12877F2C3C2F3D00D0D3FC /* OrderTypeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA12877E2C3C2F3C00D0D3FC /* OrderTypeGridView.swift */; };
 		BA1287822C3C361700D0D3FC /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1287812C3C361700D0D3FC /* OrderType.swift */; };
 		BA1287842C3C372F00D0D3FC /* DataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1287832C3C372F00D0D3FC /* DataSourceMock.swift */; };
+		BA1287862C3C3E0000D0D3FC /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1287852C3C3E0000D0D3FC /* OrderTypeView.swift */; };
 		BAF6D1C42C358E6300C4D4E2 /* ChefDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF6D1C32C358E6300C4D4E2 /* ChefDeliveryApp.swift */; };
 		BAF6D1C62C358E6300C4D4E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF6D1C52C358E6300C4D4E2 /* ContentView.swift */; };
 		BAF6D1C82C358E6400C4D4E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF6D1C72C358E6400C4D4E2 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		BA12877E2C3C2F3C00D0D3FC /* OrderTypeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeGridView.swift; sourceTree = "<group>"; };
 		BA1287812C3C361700D0D3FC /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
 		BA1287832C3C372F00D0D3FC /* DataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMock.swift; sourceTree = "<group>"; };
+		BA1287852C3C3E0000D0D3FC /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
 		BAF6D1C02C358E6300C4D4E2 /* ChefDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF6D1C32C358E6300C4D4E2 /* ChefDeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliveryApp.swift; sourceTree = "<group>"; };
 		BAF6D1C52C358E6300C4D4E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				BA12877E2C3C2F3C00D0D3FC /* OrderTypeGridView.swift */,
+				BA1287852C3C3E0000D0D3FC /* OrderTypeView.swift */,
 			);
 			path = GridView;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				BA1287822C3C361700D0D3FC /* OrderType.swift in Sources */,
 				BAF6D1C62C358E6300C4D4E2 /* ContentView.swift in Sources */,
 				BA1287842C3C372F00D0D3FC /* DataSourceMock.swift in Sources */,
+				BA1287862C3C3E0000D0D3FC /* OrderTypeView.swift in Sources */,
 				BA12877F2C3C2F3D00D0D3FC /* OrderTypeGridView.swift in Sources */,
 				BAF6D1C42C358E6300C4D4E2 /* ChefDeliveryApp.swift in Sources */,
 				BAF6D1D42C35964100C4D4E2 /* NavigationBar.swift in Sources */,
