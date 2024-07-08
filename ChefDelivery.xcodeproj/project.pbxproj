@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA12877F2C3C2F3D00D0D3FC /* OrderTypeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA12877E2C3C2F3C00D0D3FC /* OrderTypeGridView.swift */; };
 		BAF6D1C42C358E6300C4D4E2 /* ChefDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF6D1C32C358E6300C4D4E2 /* ChefDeliveryApp.swift */; };
 		BAF6D1C62C358E6300C4D4E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF6D1C52C358E6300C4D4E2 /* ContentView.swift */; };
 		BAF6D1C82C358E6400C4D4E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF6D1C72C358E6400C4D4E2 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA12877E2C3C2F3C00D0D3FC /* OrderTypeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeGridView.swift; sourceTree = "<group>"; };
 		BAF6D1C02C358E6300C4D4E2 /* ChefDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF6D1C32C358E6300C4D4E2 /* ChefDeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliveryApp.swift; sourceTree = "<group>"; };
 		BAF6D1C52C358E6300C4D4E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA12877D2C3C2F0900D0D3FC /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				BA12877E2C3C2F3C00D0D3FC /* OrderTypeGridView.swift */,
+			);
+			path = GridView;
+			sourceTree = "<group>";
+		};
 		BAF6D1B72C358E6300C4D4E2 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 			children = (
 				BAF6D1D22C35960900C4D4E2 /* App */,
 				BAF6D1D12C3595EE00C4D4E2 /* NavigationBaar */,
+				BA12877D2C3C2F0900D0D3FC /* GridView */,
 				BAF6D1C72C358E6400C4D4E2 /* Assets.xcassets */,
 				BAF6D1C92C358E6400C4D4E2 /* Preview Content */,
 			);
@@ -157,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAF6D1C62C358E6300C4D4E2 /* ContentView.swift in Sources */,
+				BA12877F2C3C2F3D00D0D3FC /* OrderTypeGridView.swift in Sources */,
 				BAF6D1C42C358E6300C4D4E2 /* ChefDeliveryApp.swift in Sources */,
 				BAF6D1D42C35964100C4D4E2 /* NavigationBar.swift in Sources */,
 			);
