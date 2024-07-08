@@ -10,8 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Text1")
-            Text("Text2")
+            NavigationBar()
+                .padding(.horizontal, 15)
+            
+            ScrollView(.vertical) {
+                VStack{
+                    OrderTypeGridView()
+                }
+            }
         }
     }
 }
